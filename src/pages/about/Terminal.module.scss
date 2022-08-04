@@ -18,7 +18,7 @@ i {
 
 .terminal {
   p, li {
-    margin: 1rem 0;
+    margin: .8rem 0;
     color: $white;
   }
 
@@ -27,6 +27,8 @@ i {
     font-weight: bold;
   }
 }
+
+
 
 @keyframes changeColors {
   0% {

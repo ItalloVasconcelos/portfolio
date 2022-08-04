@@ -1,0 +1,29 @@
+@import "../../variables.modules.scss";
+
+nav {
+  transition: $transition;
+  
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  @media only screen and (min-width: 320px) {
+    font-size: 1.2rem;
+    
+  }
+}
+
+li {
+  transition: $transition;
+  @media only screen and (min-width: 320px) {
+    font-size: 1rem;
+    margin: .9px;
+    
+  } 
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: $transition;
+  }
+}
