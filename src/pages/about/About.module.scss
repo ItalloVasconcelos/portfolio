@@ -7,7 +7,19 @@
 .green {
   color: $green;
 }
-
+.move {
+  animation: blink 1.7s infinite;
+  -webkit-animation: blink 0.9s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 .skills {
   columns: 1;
   @media only screen and (min-width: 940px) {

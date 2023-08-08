@@ -1,8 +1,8 @@
 import React from 'react';
 import Style from './About.module.scss';
 import Terminal from "./Terminal";
-import {Box} from "@mui/material";
-import {info} from "../../info/Info";
+import { Box } from "@mui/material";
+import { info } from "../../info/Info";
 
 
 export default function About() {
@@ -10,51 +10,52 @@ export default function About() {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName} $</span> cat
-                about {firstName} </p>
-            <p><span style={{color: info.baseColor}}>about {firstName} <span
-                className={Style.green}>(main)</span> <br></br> $ </span>
-                {info.bio}
-            </p>
+            <span className={Style.green}>{firstName}@{firstName}-PC:<span >~$cat {firstName} about<span className={Style.move}>|</span></span><p >{info.bio}</p>
+            </span>
         </>;
     }
 
     function skillsText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName} $</span> cd habilidades/conhecimento
-            </p>
-            <p><span style={{color: info.baseColor}}>habilidades/conhecimento <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficiência com</p>
+            <span className={Style.green}>{firstName}@{firstName}-PC:<span >~$ls {firstName} skills/knowledge<span className={Style.move}>|</span></span><p ></p>
+            </span>
+            <p style={{ color: info.baseColor }}> proficiency with</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Estudando</p>
-            <ul className={Style.skills}>
+            <p style={{ color: info.baseColor }}> studying
+            </p>
+            <ul>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+            </ul>
+            <p style={{ color: info.baseColor }}> soft skills
+            </p>
+            <ul>
+                {info.skills.softSkills.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
     }
 
-    function miscText() {
-        return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName} $</span> cd
-                hobbies/interesses</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interesses <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <ul>
-                {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
-                ))}
-            </ul>
-        </>;
-    }
+    // function miscText() {
+    //     return <>
+    //         <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName} $</span> cd
+    //             hobbies/interesses</p>
+    //         <p><span style={{ color: info.baseColor }}>hobbies/interesses <span
+    //             className={Style.green}>(main)</span> $</span> ls</p>
+    //         <ul>
+    //             {info.hobbies.map((hobby, index) => (
+    //                 <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+    //             ))}
+    //         </ul>
+    //     </>;
+    // }
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
-            <Terminal text={aboutMeText()}/>
-            <Terminal text={skillsText()}/>
-            <Terminal text={miscText()}/>
+            <h1 >About</h1>
+            <Terminal text={aboutMeText()} />
+            <Terminal text={skillsText()} />
+            {/* <Terminal text={miscText()} /> */}
         </Box>
     )
 }
