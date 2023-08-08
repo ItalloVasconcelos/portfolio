@@ -103,17 +103,51 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Projeto To Do List",
+            title: "To Do List",
             live: "https://todo-itallovasc.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://githttps://github.com/ItalloVasconcelos/To_do_React_TShub.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            description: 'To do',
+            description: 'This is a To Do project, I using Typescrip and CSS to construct the to do page.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
             image: mock1
         },
         {
-            title: "Projeto Secret Word",
+            title: "Secret Word Game",
             live: "https://secret-word-game-itallo.netlify.app/",
             source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'To do',
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            image: mock2
+        },
+        {
+            title: "IFCE - Intranet ",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            image: mock2
+        },
+        {
+            title: "BananaCloud - Login Access",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            image: mock2
+        },
+        {
+            title: "BananaCloud - Pages",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            image: mock2
+        },
+        {
+            title: "Kosen Energy - Pages",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React','Typescript','CSS', 'Bootstrap'],
             image: mock2
         }
 
