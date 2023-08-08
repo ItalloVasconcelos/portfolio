@@ -73,7 +73,7 @@ export const info = {
         // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Eu sou desenvolvedor front-end, com foco em desenvolvimento web, atualmente trabalho e estudo com React. Estou sempre em busca de novas ferramentas e projetos que complementem meu trabalho. Sou comunicativo, gosto de liderar projetos, trazendo assim, a responsabilidade para si, prefiro trabalhar com organização, sou analítico, sempre estou analisando e buscando novas soluções para meus projetos. ",
+    bio: "I am an experienced software developer specializing in React framework. With a keen eye for detail, I excel in doing documentations, technology evaluation, and code reviews. My approach prioritizes quality, delivering top-tier web systems that adhere to best practices for optimal performance and responsiveness. I champion agile development, ensuring efficiency within teams. My goal is to elevate technical excellence, contributing to high-quality web systems that drive business growth. With a focus on innovation and results, I am well-equipped to tackle challenges and play a pivotal role in achieving company objectives.",
     skills:
     {
         proficientWith: ['React', 'Jest', 'Typescript', 'Cypress', 'Javascript', 'HTML5', 'CSS3', 'SASS', 'Storybook', 'Scrum', 'Git', 'Github', 'Bootstrap', 'RestAPI', 'Clean Code', 'NodeJS', 'MongoDB', 'UI/UX', 'Figma', 'Styled-Components'],
