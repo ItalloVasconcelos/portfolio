@@ -2,6 +2,7 @@ import self from "../_assents/img/self.png"
 import mock1 from "../_assents/img/mock1.png"
 import mock2 from "../_assents/img/mock2.png"
 import cv from '../_assents/folders/CVItallo.pdf'
+import { Link } from "@mui/material";
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -22,32 +23,32 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Itallo",
-    lastName: "Vasconcelos",
-    initials: "IV", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Dev Front-End",
+    firstName: "Ítallo",
+    lastName: "Sávio",
+    initials: "IS", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Front-end Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '👨🏽‍💻',
-            text: 'Codar 🤩'
+            text: 'Codes'
         },
         {
             emoji: '🌎',
-            text: 'Diretamente de Fortaleza-CE'
+            text: 'From Brazil to World'
         },
         {
             emoji: "💼",
-            text: "Desenvolvedor Front-End"
+            text: "Front-end developer"
         },
         {
             emoji: "📧",
-            text: "itallo.prog@gmail.com"
+            text: `My email: itallo.prog@gmail.com`
         },
         {
-            emoji: "📄", 
+            emoji: "📄",
             text: <a href={cv} download="Curriculo Itallo Vasconcelos">Download currículo</a>
         }
     ],
@@ -63,21 +64,22 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/itallo-vasconcelos-7441b4158/",
+            link: "https://www.linkedin.com/in/itallo-vasconcelos-7441b4158/?locale=en_US",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-       
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
+
+        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: "Eu sou desenvolvedor front-end, com foco em desenvolvimento web, atualmente trabalho e estudo com React. Estou sempre em busca de novas ferramentas e projetos que complementem meu trabalho. Sou comunicativo, gosto de liderar projetos, trazendo assim, a responsabilidade para si, prefiro trabalhar com organização, sou analítico, sempre estou analisando e buscando novas soluções para meus projetos. ",
     skills:
-        {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'typescript', 'API rest', 'clean code',],
-            exposedTo: ['nodejs', 'figma', 'clean archteture']
-        }
+    {
+        proficientWith: ['React', 'Jest', 'Typescript', 'Cypress', 'Javascript', 'HTML5', 'CSS3', 'SASS', 'Storybook', 'Scrum', 'Git', 'Github', 'Bootstrap', 'RestAPI', 'Clean Code', 'NodeJS', 'MongoDB', 'UI/UX', 'Figma', 'Styled-Components'],
+        exposedTo: ['Clean Archteture', 'DevOPs', 'Design Partner',],
+        softSkills: ['Comunicative', 'DevOPs', 'Design Partner',]
+    }
     ,
     hobbies: [
         {
@@ -96,22 +98,24 @@ export const info = {
             label: 'Cozinhar',
             emoji: '🌶'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+        // Same as above, change the emojis to match / relate to your hobbies or interests.
+        // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Projeto To Do List",
             live: "https://todo-itallovasc.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://githttps://github.com/ItalloVasconcelos/To_do_React_TShub.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            description: 'To do',
             image: mock1
         },
         {
             title: "Projeto Secret Word",
             live: "https://secret-word-game-itallo.netlify.app/",
             source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'To do',
             image: mock2
         }
-        
+
     ]
 }
