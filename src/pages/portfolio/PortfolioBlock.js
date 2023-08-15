@@ -1,11 +1,13 @@
 import React from 'react';
 import IconLink from "./IconLink";
 import { Box } from "@mui/material";
+import { Carousel } from 'react-responsive-carousel';
 import './PortfolioBlock.scss'
 
 function PortfolioBlock(props) {
    const { image, live, source, title, description, techs } = props;
    return (
+
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
 
          <Box component={'img'} src={image} alt={'mockup'} height={500} />
@@ -27,7 +29,7 @@ function PortfolioBlock(props) {
                borderRadius={10}
                className="button">
 
-               <IconLink link={live} title={'Página'} icon={'fa fa-safari'} />
+               <IconLink link={live} title={'Live'} icon={'fa fa-safari'} />
             </Box>
             <Box
                component="a"
@@ -38,7 +40,7 @@ function PortfolioBlock(props) {
                border="1px solid black"
                borderRadius={10}
                className="button">
-               <IconLink link={source} title={'Código'} icon={'fa fa-code'} />
+               <IconLink link={source} title={'Source'} icon={'fa fa-code'} />
             </Box>
          </Box>
       </Box >

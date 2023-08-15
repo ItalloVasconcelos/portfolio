@@ -1,6 +1,9 @@
 import self from "../_assents/img/self.png"
 import mock1 from "../_assents/img/mock1.png"
 import mock2 from "../_assents/img/mock2.png"
+import mock_ifce from "../_assents/img/mock_ifce.png"
+import mock_banana_login from "../_assents/img/mock_banana_login.png"
+import mock_bananaCloud_pages from "../_assents/img/mock_bananaCloud_pages.png"
 import cv from '../_assents/folders/CVItallo.pdf'
 import { Link } from "@mui/material";
 
@@ -52,6 +55,17 @@ export const info = {
             text: <a href={cv} download="Curriculo Itallo Vasconcelos">Download currículo</a>
         }
     ],
+    title: [
+        {
+            emoji: '🗣️',
+            title: "About"
+        },
+        {
+            emoji: '👨‍💻',
+            title: "Portfolio"
+        }
+    ]
+    ,
     socials: [
         {
             link: "https://www.instagram.com/itallo211/",
@@ -103,11 +117,45 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "IFCE - Intranet ",
+            live: "https://www.intranet.maracanau.ifce.edu.br/login",
+            source: "https://www.intranet.maracanau.ifce.edu.br/login",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            image: mock_ifce
+        },
+        {
+            title: "BananaCloud - Login Access",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            image: mock_banana_login
+        },
+
+
+        {
+            title: "BananaCloud - Pages",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            image: mock_bananaCloud_pages
+        },
+        {
+            title: "Kosen Energy - Pages",
+            live: "https://secret-word-game-itallo.netlify.app/",
+            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
+            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            image: mock2
+        },
+        {
             title: "To Do List",
             live: "https://todo-itallovasc.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://githttps://github.com/ItalloVasconcelos/To_do_React_TShub.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            source: "https://github.com/ItalloVasconcelos/To_do_React_TS", // this should be a link to the **repository** of the project, where the code is hosted.
             description: 'This is a To Do project, I using Typescrip and CSS to construct the to do page.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
             image: mock1
         },
         {
@@ -115,41 +163,9 @@ export const info = {
             live: "https://secret-word-game-itallo.netlify.app/",
             source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
             description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
+            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
             image: mock2
         },
-        {
-            title: "IFCE - Intranet ",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
-            image: mock2
-        },
-        {
-            title: "BananaCloud - Login Access",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
-            image: mock2
-        },
-        {
-            title: "BananaCloud - Pages",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
-            image: mock2
-        },
-        {
-            title: "Kosen Energy - Pages",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React','Typescript','CSS', 'Bootstrap'],
-            image: mock2
-        }
 
     ]
 }

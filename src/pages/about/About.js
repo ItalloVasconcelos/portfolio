@@ -51,11 +51,13 @@ export default function About() {
     // }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
-            <h1 >About</h1>
-            <Terminal text={aboutMeText()} />
-            <Terminal text={skillsText()} />
-            {/* <Terminal text={miscText()} /> */}
-        </Box>
+        <>
+            <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+                {/* <Box width={{ xs: "80%", md: "50%" }} marginBottom={"1rem"} fontSize={'2.5rem'}>About</Box> */}
+                <Terminal text={aboutMeText()} />
+                <Terminal text={skillsText()} />
+                {/* <Terminal text={miscText()} /> */}
+            </Box></>
+
     )
 }

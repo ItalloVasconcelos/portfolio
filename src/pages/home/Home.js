@@ -38,10 +38,7 @@ export default function Home() {
 
                </Box>
             </Box>
-
             <About />
-
-
             <Portfolio />
          </Box >
       </>
