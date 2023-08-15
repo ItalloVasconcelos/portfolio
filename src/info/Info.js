@@ -4,6 +4,7 @@ import mock2 from "../_assents/img/mock2.png"
 import mock_ifce from "../_assents/img/mock_ifce.png"
 import mock_banana_login from "../_assents/img/mock_banana_login.png"
 import mock_bananaCloud_pages from "../_assents/img/mock_bananaCloud_pages.png"
+import kosen_page from "../_assents/img/kosen_page.png"
 import cv from '../_assents/folders/Resume.pdf'
 
 
@@ -52,7 +53,7 @@ export const info = {
         },
         {
             emoji: "📄",
-            text: <a href={cv} download="Curriculo Itallo Vasconcelos">Download currículo</a>
+            text: <a href={cv} download="Curriculo Itallo Vasconcelos">Download my Resume!</a>
         }
     ],
     title: [
@@ -91,8 +92,8 @@ export const info = {
     skills:
     {
         proficientWith: ['React', 'Jest', 'Typescript', 'Cypress', 'Javascript', 'HTML5', 'CSS3', 'SASS', 'Storybook', 'Scrum', 'Git', 'Github', 'Bootstrap', 'RestAPI', 'Clean Code', 'NodeJS', 'MongoDB', 'UI/UX', 'Figma', 'Styled-Components'],
-        exposedTo: ['Clean Archteture', 'DevOPs', 'Design Partner',],
-        softSkills: ['Comunicative', 'DevOPs', 'Design Partner',]
+        exposedTo: ['Clean Archteture', 'DevOPs', 'Design Partner', 'Software Archteture'],
+        softSkills: ['Effective Communication', 'Insightful working with cross-industry teams', 'Empathetic Leadership', 'Analytical Thinking', 'Effective Problem Solving',]
     }
     ,
     hobbies: [
@@ -120,50 +121,51 @@ export const info = {
             title: "IFCE - Intranet ",
             live: "https://www.intranet.maracanau.ifce.edu.br/login",
             source: "https://www.intranet.maracanau.ifce.edu.br/login",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            description: "I collaborated with the NDS team to build the login pages and dashboard for the Intranet of the Federal Institute of Ceará, Maracanaú campus. The client had a pressing requirement: to create a comprehensive system where students could access all information and address their issues in one single location. With this client need in mind, we worked tirelessly to design and implement these interfaces. The opportunity to meet this specific demand was exceptionally rewarding. By joining forces, we successfully crafted an efficient solution that not only met the client's expectations but also streamlined the student experience, consolidating information and enabling prompt resolution of challenges.It was a fulfilling journey, showcasing our ability to translate client needs into tangible and successful solutions.",
+            techs: ['React, ', 'Typescript, ', 'Styled-Components, ', 'Bootstrap, ', 'Axios API, ', 'Insomnia, ', 'Figma, ', 'Swagger, ', 'Git, ', 'Gitlab, ', 'SCRUM.'],
             image: mock_ifce
         },
         {
             title: "BananaCloud - Login Access",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            live: "",
+            source: "https://github.com/ItalloVasconcelos/",
+            description: "This project was part of the team I'm currently on.The project is a cloud service provider.In this context, the client presented a clear need: the development of a simplified login interface using Keycloak.This effort was aimed at increasing the efficiency of login requests, account creation, and other related features.By meeting this specific requirement, we embarked on a collaborative journey to provide a seamless solution.Through the integration of Keycloak, we leveraged its features to create an intuitive and efficient login system.This not only met customer expectations, but it also addressed its broader goal of streamlining account management and login processes.",
+            techs: ['Javascript, ', 'HTML, ', 'SCSS, ', 'Keycloak.'],
             image: mock_banana_login
         },
 
 
+        //Fazer uma página, nessa página tem todas as telas que eu fiz, tanto no figma quanto em dev, e ai o usuário clica e abre um modal para mostrar o que tem.
         {
             title: "BananaCloud - Pages",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            live: "",
+            source: "",
+            description: 'This project follows the same steps as the BananaCloud login project, but extends to encompass the creation of additional screens. I assumed responsibility for crafting several screens, including the profile and shopping checkout screens. The creation of these screens posed a degree of complexity, necessitating adjustments and enhancements to align with market standards. The client expressed high satisfaction with these screens. Currently, I am engaged in another project within the same company, continuing to contribute and collaborate',
+            techs: ['React, ', 'Typescript, ', 'SCSS, ', 'BEM and CSS modules, ', 'RestAPI, ', 'Bitbucket, ', 'Jira, ', 'SCRUM, ', 'Keycloak, ', 'Podman, ', 'Figma, '],
             image: mock_bananaCloud_pages
         },
         {
             title: "Kosen Energy - Pages",
-            live: "https://secret-word-game-itallo.netlify.app/",
-            source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
-            image: mock2
+            live: "",
+            source: "",
+            description: 'Within the same company, I was invited to join the development team of another system called Kosen-Energy. This system features a comprehensive dashboard that encompasses a variety of dynamic charts, tables and comments. Users can customize their experience by selecting specific graphics from different sources,as well as preferred sector divisions. The project has gone and continues to go through several improvements over the weeks.The team is gathering efforts to launch the MVP by October 2023, requiring greater dedication and commitment.Effective use of SCRUM ensures that we keep our focus on deadlines, requiring robust organization, collaboration, and commitment to setting timelines.',
+            techs: ['React, ', 'Typescript, ', 'SCSS, ', 'BEM and CSS modules, ', 'RestAPI, ', 'Bitbucket, ', 'Jira, ', 'SCRUM, ', 'Figma, ', 'UI/UX designs.',],
+            image: kosen_page
         },
         {
             title: "To Do List",
             live: "https://todo-itallovasc.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/ItalloVasconcelos/To_do_React_TS", // this should be a link to the **repository** of the project, where the code is hosted.
-            description: 'This is a To Do project, I using Typescrip and CSS to construct the to do page.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            description: "This project marked one of my early forays into React, undertaken during a React course. It involves building a simple yet impactful to-do list application. Users can easily switch between task states by choosing between 'em progress', done, ' or 'to do'. Designed to be responsive,The app scales seamlessly across tablets, mobile devices and desktops, ensuring a consistent user experience across all platforms.",
+            techs: ['React, ', 'Typescript, ', 'CSS, ', 'Bootstrap.'],
             image: mock1
         },
         {
             title: "Secret Word Game",
             live: "https://secret-word-game-itallo.netlify.app/",
             source: "https://github.com/ItalloVasconcelos/Projeto-01-Secret-Word",
-            description: 'This is a Secret Word game project, I construct this using just React and Modular CSS.',
-            techs: ['React', 'Typescript', 'CSS', 'Bootstrap'],
+            description: "This is my first standalone React app, a project that took a while to complete as I dug deeper into various React functions. It materialized as a play on words similar to the style of 'Who Wants to Be a Millionaire'. The game involves choosing a letter to fill in the blanks,offering three tries during the point count. While it's a straightforward app, it deftly dives deep into React's key hooks, showing off its prowess even in a seemingly simple project.This project served as a valuable exploration of React's features.",
+            techs: ['React, ', 'CSS.',],
             image: mock2
         },
 
