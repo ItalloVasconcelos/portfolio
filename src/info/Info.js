@@ -4,8 +4,8 @@ import mock2 from "../_assents/img/mock2.png"
 import mock_ifce from "../_assents/img/mock_ifce.png"
 import mock_banana_login from "../_assents/img/mock_banana_login.png"
 import mock_bananaCloud_pages from "../_assents/img/mock_bananaCloud_pages.png"
-import cv from '../_assents/folders/CVItallo.pdf'
-import { Link } from "@mui/material";
+import cv from '../_assents/folders/Resume.pdf'
+
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of

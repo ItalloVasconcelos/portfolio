@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import Style from './BaseLayout.module.scss'
 import Home from "../../pages/home/Home";
 import About from "../../pages/about/About";
@@ -7,14 +7,14 @@ import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
 export default function BaseLayout() {
-   let [darkMode, setDarkMode] = useState(false);
+   // let [darkMode, setDarkMode] = useState(false);
 
    // function handleClick() {
    //    setDarkMode(!darkMode);
    // }
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light}>
+      <Box className={Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
             justifyContent={'space-between'}>
             {/* <Grid item>
