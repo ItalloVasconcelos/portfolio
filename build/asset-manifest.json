@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb4cfa81.css",
+    "main.js": "/static/js/main.5fdb61bc.js",
+    "static/media/Resume.pdf": "/static/media/Resume.592c316e541b77547a5e.pdf",
+    "static/media/self.png": "/static/media/self.8f71055ebb837759b06a.png",
+    "static/media/kosen_page.png": "/static/media/kosen_page.4c747340c1b766a185ec.png",
+    "static/media/mock_bananaCloud_pages.png": "/static/media/mock_bananaCloud_pages.e21e61ace263c06a877b.png",
+    "static/media/mock_ifce.png": "/static/media/mock_ifce.c4676ab389b4fb83ffe0.png",
+    "static/media/mock_banana_login.png": "/static/media/mock_banana_login.e41ea67f0e30d1f40d82.png",
+    "static/media/mock2.png": "/static/media/mock2.c12c2452641bb44ad5d8.png",
+    "static/media/mock1.png": "/static/media/mock1.2f03b6a8de629fe2aeef.png",
+    "index.html": "/index.html",
+    "main.bb4cfa81.css.map": "/static/css/main.bb4cfa81.css.map",
+    "main.5fdb61bc.js.map": "/static/js/main.5fdb61bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb4cfa81.css",
+    "static/js/main.5fdb61bc.js"
+  ]
+}
