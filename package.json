@@ -1,7 +1,10 @@
 {
-  "name": "portfolioTemplate",
+  "name": "portfolio-itallo-vasconcelos",
   "version": "2.0.0",
   "private": true,
+  "description": "Portfolio moderno e responsivo desenvolvido em React.js",
+  "author": "Itallo Vasconcelos <itallo.prog@gmail.com>",
+  "homepage": "https://portfolio-itallo-vasconcelos.vercel.app",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -30,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
   },
   "eslintConfig": {
     "extends": "react-app"

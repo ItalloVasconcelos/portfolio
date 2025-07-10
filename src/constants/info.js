@@ -1,11 +1,11 @@
-import self from "../_assents/img/self.png"
-import mock1 from "../_assents/img/mock1.png"
-import mock2 from "../_assents/img/mock2.png"
-import mock_ifce from "../_assents/img/mock_ifce.png"
-import mock_banana_login from "../_assents/img/mock_banana_login.png"
-import mock_bananaCloud_pages from "../_assents/img/mock_bananaCloud_pages.png"
-import kosen_page from "../_assents/img/kosen_page.png"
-import cv from '../_assents/folders/Resume.pdf'
+import self from "../_assets/img/self.png"
+import mock1 from "../_assets/img/mock1.png"
+import mock2 from "../_assets/img/mock2.png"
+import mock_ifce from "../_assets/img/mock_ifce.png"
+import mock_banana_login from "../_assets/img/mock_banana_login.png"
+import mock_bananaCloud_pages from "../_assets/img/mock_bananaCloud_pages.png"
+import kosen_page from "../_assets/img/kosen_page.png"
+import cv from '../_assets/folders/Resume.pdf'
 
 
 

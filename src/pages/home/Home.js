@@ -1,11 +1,11 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../_assents/img/self.png';
+import me from '../../_assets/img/self.png';
 import classNames from 'classnames';
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
-import { info } from "../../info/Info";
+import { info } from "../../constants/info";
 import About from '../about/About';
 import Portfolio from '../portfolio/Portfolio';
 
